@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    background-color: #f1f7ed; 
+    color: #243e36;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin:0 auto;
+}
+h1{
+    color: #c2a83e;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+h2{
+    color: #4f7c65;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+#inicio{
+    background: linear-gradient(135deg,#243e36,#7ca982);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.destacado{
+    color: #c2a83e;
+    font-weight: bold; 
+    font-style: italic;
+}
+.subtitulo{
+    text-align: center;
+    font-style:italic;
+    color: #e0eec6;
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+.habilidades{
+    font-weight: bold; 
+    margin-bottom: 4px;
+}
+.mis-metas{
+    font-weight: bold; 
+    margin-bottom: 4px;
+}
+.cita{
+    background-color: #6f9c75;
+    color: #f1f7ed;
+    border-left: 5px solid #243e36;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight:100;
+    line-height: 1.7;
+    margin: 15px;
+}
+.autor{
+    color: #243e36;
+    font-weight: bold;
+    padding-left: 25px;
+}
+ul,ol{
+    padding-left: 35px; 
+    margin-bottom: 10px;       
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th { 
+    background-color: #243e36;
+    color: white; 
+    padding: 10px; 
+    text-align: left; 
+    font-weight: bold; 
+}
+td { padding: 10px; 
+    border-bottom: 2px solid #243e36; 
+}
+
+tr:hover {
+    background-color: #e0eec6;
+}
+
+pre {
+    background-color: #6f9c75;
+    color: #f1f7ed;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    border-left: 5px solid #243e36;
+    margin-bottom: 50px;
+  
+}
+.pie-pagina{
+    text-align: center;
+    font-style: italic;
+    color: #6b8f78;
+    font-size: 15px;
+    margin-top: 10px;
+}
